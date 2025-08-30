@@ -1,0 +1,22 @@
+{
+  "name": "radio-es-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma db push && next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@prisma/client": "5.16.2",
+    "fast-xml-parser": "4.4.1",
+    "dayjs": "1.11.11"
+  },
+  "devDependencies": {
+    "prisma": "5.16.2",
+    "typescript": "5.4.5"
+  }
+}

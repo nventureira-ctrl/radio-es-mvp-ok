@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/ingest/radiodns",
+      "schedule": "0 4 * * *"
+    }
+  ]
+}
